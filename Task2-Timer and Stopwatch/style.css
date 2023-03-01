@@ -1,0 +1,31 @@
+.content {
+    background-color: chocolate;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+#all {
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main {
+    display: inline;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    
+}

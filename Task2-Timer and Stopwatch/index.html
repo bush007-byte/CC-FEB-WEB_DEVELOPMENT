@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch and Timer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h3>Stopwatch and Timer</h3>
+        </div>
+
+        <div class="outer-wrapper" id="all">
+            <!-- Stopwatch -->
+            <div class="stop">
+              <p class="name">Stopwatch</p>
+              <div class="stopwatch">
+                 <div class="wrapper">
+                     <div class="main">
+                         <div class="timer-display" id="timedisp">
+                            <h1>00 : 00 : 00 : 000</h1>
+                         </div>
+                     </div>
+                  </div>
+                
+
+                 <div class="btns">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="reset">Reset</button>  
+                 </div>
+                </div>
+            </div>
+
+<hr>
+     <!--Timer-->
+        <div class="time">
+            <p class="name">Timer</p>
+            <div class ="timer">
+                <div class="wrapper">
+                    <div class="main">
+                        <div class="hour">
+                            <p class="number" id="timer-hour">00</p>
+                            <p>hours</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="min">
+                            <p class="number" id="timer-min">00</p>
+                            <p>minutes</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="sec">
+                            <p class="number" id="timer-sec">00</p>
+                            <p>seconds</p>
+                        </div>
+                        <p class="colon">:</p>
+                        <div class="milisecond">
+                            <p class="number" id="timer-ms">00</p>
+                            <p>milisecond</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="btn start-timer">Start</button>
+                    <button class="btn stop-timer hidden">Stop</button>
+                    <button class="btn reset-timer">Reset</button>
+                    <button class="btn back-btn">Back</button>
+                </div>
+            </div>
+         </div>  
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" ></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
